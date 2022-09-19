@@ -1,0 +1,82 @@
+.bg-contact {
+  height: 100%;
+  background-color: $contact_color;
+  font-style: italic;
+  font-weight: bold;
+
+  
+  .contact-form{
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: $text_color;
+    
+
+    .contact-title{
+      color: $title_color;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-align: center;
+    }
+    .contact-text{
+      text-align: center;
+      margin: auto;
+    }
+    .email-icon-contact{
+      text-align: center;
+    }
+    .email-contact {
+      margin-left: 0px;
+      margin-right: 0px;
+      color: $text_color;
+    }
+    
+    input{
+      height: 60px;
+      margin-bottom: 10px;
+    }
+    ::placeholder {
+      font-size: 15px;
+      font-style: italic;
+      font-weight: bold;
+    }
+  }
+  .social-icons{
+    text-align: center;
+  }
+ 
+}
+.btn-send {
+  box-shadow: 1px 1px 10px $skills_color;
+  font-size: 15px;
+  color: $text_color;
+}
+.send-block{
+  text-align: center;
+}
+.md-form {
+  #message{
+    height: 120px;
+  }
+}
+
+//Social buttons background 
+.btn-fb {
+  background-color: #3b5998;
+  color: white;
+}
+
+.btn-ig {
+  background-color: #ac2bac;
+  color: white;
+}
+
+.btn-linkedin{
+  background-color: #0082ca;
+  color: white;
+}
+
+.btn-github{
+  background-color: #333333;  
+  color: white;
+}

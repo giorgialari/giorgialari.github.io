@@ -1,0 +1,49 @@
+.home{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2{
+  font-size: 25px;
+}
+
+.words-rotate {
+  position: absolute;
+  height: 30px;
+  font-size: 25px;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+  padding-left: 8px;
+}
+
+.words-rotate span {
+  animation: animate 10s ease infinite;
+  position: relative;
+}
+
+
+@keyframes animate {
+  0% { top: 0 } /* i viaggi */
+  20% { top: 0 }
+  25% { top: -30px} /* la natura */
+  45% { top: -30px} /* la natura */
+  50% { top: -60px} /* un buon libro*/
+  70% { top: -60px}
+  75% { top: -90px} /*la subacquea */
+  95% { top: -90px}
+  100%  { top: 0 }
+}
+@media (max-width:300px){
+  .words-rotate {
+  padding-left: 0px; 
+  }
+}
+
+@media  (max-width: 768px) {
+  .words-rotate{
+    line-height: 30px;
+  }
+}

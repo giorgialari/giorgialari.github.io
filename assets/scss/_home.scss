@@ -1,0 +1,60 @@
+.home {
+  background-color: $home_color;
+  padding-top: 5%;  
+  margin-bottom: -1px;
+  .presentation{
+    font-size: 24px;
+    color: $text_color;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px $skills_color, -2px -2px 5px $text_color;
+   
+  }
+  .responsive-hide{
+    display: none;
+  }
+  .responsive-hide-words {
+    display: none;
+  }
+  span.job-text{
+    color: $important_keywords_color;
+  }
+  .words-rotate span {
+    color: $important_keywords_color; 
+  }
+
+  }
+
+  @media (min-width: 280px) and (max-height: 653px) {
+    .home {
+      padding-top: 10%; 
+  }
+}
+  
+  @media  (max-width: 767px) {
+    .home {
+      height: 100%;
+      .presentation{
+        font-size: 24px;
+        .words-rotate{
+          font-size: 24px;
+        }
+        .responsive-hide{
+          display: block;
+        }
+    }
+  }
+}
+@media (min-width: 768px) and (max-height: 1024px) {
+.home {
+    .responsive-hide{
+      display: none;
+    }
+}
+}
+
+@media  (min-width: 1500px) {
+  .home .presentation{
+    margin-top: 0px !important;
+  }
+}

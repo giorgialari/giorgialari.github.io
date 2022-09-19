@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  scrollbar-width: none; /* For Firefox */
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1,h2 {
+  font-style: italic;
+  font-weight: bold;
+}
+
+p {
+  margin-left: 10% ;
+  margin-right:10% ;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00446F; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0D122E; 
+}
+
+
+.navbar {
+  background-color: $nav_color;
+  opacity: 0.95;  
+  .logo {
+    width: 100%;
+    max-width: 180px;
+  }
+  .nav-link{
+    transition: 0.15s;
+    text-transform: uppercase;
+  }
+  .nav-link:hover {
+    background-color: $nav_hover_color;
+    color: $text_color;
+    border-radius: 5px;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,65 @@
+.bg-about {
+  background-color: $about_color;
+  background-image: url("/img/wave-about.svg");
+  background-repeat: no-repeat;
+  background-position: bottom ;
+  margin-bottom: -1px;
+
+  .profile-img{
+    width: 100%;
+    max-width: 250px;
+  }
+}
+  .about-me-title{
+    color: $title_color;
+    text-transform: uppercase;
+  }
+  .text-about{
+    color: $text_color;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    .important-keywords{
+      color: $important_keywords_color;
+    }
+    a.important-keywords{
+      text-decoration: underline;
+    }
+  }
+ .cv-button {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+  .button-download {
+  background-color: $contact_color; 
+  color: $text_color;
+  font-size: 18px;
+  box-shadow: 2px 2px 5px $contact_color,  -2px -2px 5px $about_color;  
+  }
+  .button-download:hover {
+    background-color: $about_color;
+    color: $contact_color;
+    transition: 0.15s;
+  }
+
+
+
+@media (min-width: 280px) and (max-width:768px) {
+      .cv-button {
+        margin-top: 5%;
+        margin-bottom: 15%;
+      }
+}
+@media (max-width: 768px) {
+  .text-about {
+    font-size: 21px;
+  }
+}
+
+@media  (min-width: 1680px) {
+  .cv-button {
+    margin-top: 2%;
+    margin-bottom: 10%;
+  }
+}

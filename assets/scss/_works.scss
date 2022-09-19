@@ -1,0 +1,57 @@
+.bg-works {
+  background-color: $skills_color;
+  height: 100% ;
+  background-image: url("/img/wave-skills.svg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  margin-bottom: -1px;
+  .card-group{
+    padding-bottom: 10%;
+  }
+}
+  .works-title{
+    color: $title_color;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-transform: uppercase;
+  }
+  .card{
+    background-color: $skills_color;
+    border-color: $skills_color;
+    color: $text_color;
+    box-shadow: 1px 1px 10px $contact_color;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+      .tag {
+        background-color: $text_color;
+        color: $important_keywords_color;
+        padding-left: 5px;
+        padding-right: 5px;
+        border: 1px solid $important_keywords_color;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 5%;
+        box-shadow: 1px 1px 10px $contact_color; 
+      }
+    }
+    .btn-site{
+      background-color: $contact_color;
+      color: $text_color;
+      font-size: 15px;
+      box-shadow: 2px 2px 5px $contact_color,  -2px -2px 5px $about_color;  
+    :hover {
+      background-color: $text_color;
+      color: $contact_color;
+      transition: 0.7s;
+    }
+  }
+
+@media (width: 600px) {
+  .card-group{
+    display: flex;
+    flex-direction: column;
+}
+}
+

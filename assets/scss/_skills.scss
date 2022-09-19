@@ -1,0 +1,36 @@
+.bg-skills{
+  height: 100%;
+  background-color: $skills_color;
+  margin-bottom: -1px;
+  .skills-title {
+    color: $title_color;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .skills-text{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 60px;
+    color: $text_color;
+  } 
+ i {
+  color: $text_color;
+ }
+   .icon-txt{
+    padding-top: 10%;
+    font-size: 13px;
+  }
+}
+
+
+@media (max-width:768px){
+  .bg-skills{
+    height: 100%;
+    .skills-text{
+      font-size: 21px;
+    }
+    i {margin-bottom: 2%;
+    }
+  }
+}
