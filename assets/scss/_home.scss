@@ -1,6 +1,6 @@
 .home {
   background-color: $home_color;
-  padding-top: 10%;  
+  padding-top: 5%;  
   margin-bottom: -1px;
   .presentation{
     font-size: 24px;
@@ -28,6 +28,7 @@
   @media  (max-width: 767px) {
     .home {
       height: 100%;
+      padding-top: 10%;
       .presentation{
         font-size: 24px;
         .words-rotate{
