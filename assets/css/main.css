@@ -112,7 +112,8 @@ p {
   background-color: #7FA6C0;
   background-image: url("/img/wave-about.svg");
   background-repeat: no-repeat;
-  background-position: 100% 101%;
+  background-position: 100% 100%;
+  background-size: 101%;
   margin-bottom: -1px;
 }
 .bg-about .profile-img {
@@ -214,7 +215,8 @@ p {
   height: 100%;
   background-image: url("/img/wave-skills.svg");
   background-repeat: no-repeat;
-  background-position: 100% 101%;
+  background-position: 100% 100%;
+  background-size: 101%;
   margin-bottom: -1px;
 }
 .bg-works .card-group {
